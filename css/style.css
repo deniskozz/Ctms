@@ -1,0 +1,155 @@
+body{
+    background-color: #15191C;
+    padding: 0.4%;
+    overflow: hidden;
+}
+
+*{
+    margin: 0; padding: 0;
+    font-family: 'Montserrat';
+}
+
+.screen{
+    padding: 3% 7%;
+    border-radius: 50px;
+    margin: auto;
+    max-width: 75%;
+    background-color: #1E252B;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.logo_img-link{
+    font-family: 'Poppins';
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.logo_img{
+    margin-right: 10px;
+}
+
+.dot{
+    color: #008772;
+}
+
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_link{
+    margin: 0 0 0 50px;
+    text-decoration: none;
+    color: #5E6567;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container_header{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav_buttons{
+    display: flex;
+}
+
+.active-red{
+    color: #fff;
+    padding: 18px 30px;
+    background-color: #E51700;
+    margin-left: 30px;
+}
+
+.inactive{
+    background-color: #1E252B;
+    color: #81888F;
+    padding: 18px 30px;
+}
+
+.container_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_main-part{
+    max-width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.small{
+    font-size: 18px;
+    font-weight: 600;
+    color: #81888F;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 18px 0;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 18px;
+    color: #81888F;
+}
+
+.watch-btn{
+    background-color: #1E252B;
+    border: 1px solid #C9D2DC;
+    color: #C9D2DC;
+    padding: 18px 30px;
+}
+
+.container_tree-part{
+    max-width: 50%;
+}
+
+.buttons{
+    margin-top: 48px;
+}
+
+.buttons .active-red{
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.footer{
+    font-weight: 600;
+    font-size: 18px;
+    color: #81888F;
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elka-img{
+    width: 100%;
+}
