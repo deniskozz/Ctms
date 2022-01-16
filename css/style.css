@@ -53,6 +53,10 @@ body{
     font-weight: 600;
 }
 
+.nav_link:hover{
+    color: #C9D2DC;
+}
+
 .container_header{
     margin: 0;
     display: flex;
@@ -78,10 +82,19 @@ button{
     margin-left: 30px;
 }
 
+.active-red:hover{
+    background-color: #e61700d1;
+}
+
 .inactive{
     background-color: #1E252B;
     color: #81888F;
     padding: 18px 30px;
+}
+
+.inactive:hover{
+    background-color: #5E6567;
+    color: #C9D2DC;
 }
 
 .container_main{
